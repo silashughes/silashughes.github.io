@@ -2,8 +2,8 @@
 title: Silas | Engineer
 email: silas.w.hughes@gmaiil.com
 url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-skills: "Roboticist - sUAV Pilot - Mechanical Engineer"
+description: "My name is Silas Hughes, and I am a Roboticist, Engineer, and UAS/UAV/Drone Pilot. This portfolio highlights some of my recent work."
+skills: "Roboticist - Mechanical Engineer - UAS Pilot "
 meta_author: Hughes Silas
 
 # Google webmaster tools
@@ -24,7 +24,7 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
+  primary: 3a5282 #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
@@ -39,9 +39,9 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
-    url:
+    url: https://www.linkedin.com/in/silas-hughes-0ab1174a
   - title: github
-    url:
+    url: https://github.com/silashughes
 
 # Postal address (add as many lines as necessary)
 address:
@@ -49,7 +49,7 @@ address:
   - line: Somerville, MA 02144
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'To make this website, I used <a href="http://startbootstrap.com">Freelancer</a>, a free to use, open source Bootstrap theme.'
 
 # Build settings
 markdown: kramdown
