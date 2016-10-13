@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 1
+date: 2010-08-10
+img: lloyd_jay.jpg
+alt: image-alt
+project-date: Ongoing
+client: Personal
+clienturl:
+category: Design and Fabrication
+title: Electric Motorcycle
+description: My sophomore year of high school, I decided that I wanted to make my own personal electric vehicle. It started with a discarded BMX bicycle a robotics motor and some lead acid batteries, and over the years it became more and more of a real and usable vehicle. In 2010, I was interviewed by Jay Leno about my motorcycle for a Jay's Garage segment, and he took it for a little spin. Since then, the bike has taken on a new chassis and new batteries, and it is my main mode of city transportation. This is one of those projects that is never quite finished; I am currently working on a new taillight assembly that's a little slimmer and less likely to break when moving the bike through tight spaces.
+---
