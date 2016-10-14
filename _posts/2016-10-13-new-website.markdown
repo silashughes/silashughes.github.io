@@ -2,8 +2,8 @@
 layout: default
 modal-id: 3
 date: 2010-08-10
-img: website.png
-alt: image-alt
+img: website.PNG
+alt: A screenshot of my website. So meta.
 project-date: October 2016
 client: Personal
 clienturl:

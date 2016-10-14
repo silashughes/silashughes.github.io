@@ -2,8 +2,8 @@
 layout: default
 modal-id: 1
 date: 2010-08-10
-img: lloyd_jay.jpg
-alt: image-alt
+img: lloyd_jay.JPG
+alt: Talking to Jay Leno about my motorcyle
 project-date: Ongoing
 client: Personal
 clienturl:
