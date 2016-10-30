@@ -1,56 +1,65 @@
-# Site settings
-title: Silas | Engineer
-email: silas.w.hughes@gmail.com
-url: https://silashughes.github.io
-description: "My name is Silas Hughes, and I am a Roboticist, Engineer, and UAS/UAV/Drone Pilot. This portfolio highlights some of my recent work."
-skills: "Roboticist - Mechanical Engineer - UAS Pilot "
-meta_author: Hughes Silas
+# Site
+title: Halve
+description: Stylish, Two-Column Jekyll Theme
+url: http://taylantatli.me/Halve
+logo: halve.png                                       # Site logo
+locale: en_US
 
-# Google webmaster tools
-google_verify:
+# Left Block Images
+background:
+  homepage: images/home.png                           # this image will be shown on homepage's left block
+  post-list: images/unsplash-image-10.jpg             # this image will be shown on post list page
+  default-post: images/unsplash-gallery-image-3.jpg   # this image will be shown when post's front matter doesn't specify any image
 
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+sass:
+  sass_dir:         assets/_sass
+  style:            compressed
 
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
+# Google Analytics
+#google-analytics: UA-XXXXX-Y
 
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+# Social Links
+#email:             email
+#google.plus:        username
+twitter:            username
+#facebook:           username
+github:             username
+stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#linkedin:          username
+#xing:              username
+#instagram:          username
+#lastfm:            username
+#tumblr:            username
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+#youtube:           username
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+behance:           username
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 3a5282 #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+# Gems
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
 
-# Footer settings
-footer:
-  copyright: Silas Hughes
-  location: Location
-  social: Around the Web
-  credits: Credits
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: linkedin
-    url: https://www.linkedin.com/in/silas-hughes-0ab1174a
-  - title: github
-    url: https://github.com/silashughes
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 85 Bromfield Rd
-  - line: Somerville, MA 02144
-
-# Credits content
-credits: 'To make this website, I used <a href="http://startbootstrap.com">Freelancer</a>, a free to use, open source Bootstrap theme.'
-
-# Build settings
-markdown: kramdown
-permalink: pretty
+# Exclude list
+include: [_pages]
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]
