@@ -6,9 +6,10 @@ tags:
   - Weekend Projects
 ---
 
->Maze without a Minotaur    
-By Dana Gioia   
-If we could only push these walls   
+Maze without a Minotaur    
+By Dana Gioia
+
+>If we could only push these walls   
 apart, unfold the room the way   
 a child might take apart a box   
 and lay it flat upon the floor—   
