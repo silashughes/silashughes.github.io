@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://127.0.0.1:4000/" rel="alternate" type="text/html" /><updated>2016-11-02T22:24:43-04:00</updated><id>http://127.0.0.1:4000/</id><title>Silas Hughes</title><subtitle>Roboticist - Mechanical Engineer - UAS Pilot</subtitle><entry><title>Maze without a Minotaur</title><link href="http://127.0.0.1:4000/basement-maze/" rel="alternate" type="text/html" title="Maze without a Minotaur" /><published>2016-10-31T00:00:00-04:00</published><updated>2016-10-31T00:00:00-04:00</updated><id>http://127.0.0.1:4000/basement-maze</id><content type="html" xml:base="http://127.0.0.1:4000/basement-maze/">&lt;p&gt;Maze without a Minotaur  &lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://127.0.0.1:4000/" rel="alternate" type="text/html" /><updated>2016-11-03T00:02:22-04:00</updated><id>http://127.0.0.1:4000/</id><title>Silas Hughes</title><subtitle>Roboticist - Mechanical Engineer - UAS Pilot</subtitle><entry><title>Maze without a Minotaur</title><link href="http://127.0.0.1:4000/basement-maze/" rel="alternate" type="text/html" title="Maze without a Minotaur" /><published>2016-10-31T00:00:00-04:00</published><updated>2016-10-31T00:00:00-04:00</updated><id>http://127.0.0.1:4000/basement-maze</id><content type="html" xml:base="http://127.0.0.1:4000/basement-maze/">&lt;p&gt;Maze without a Minotaur  &lt;br /&gt;
 &lt;cite&gt;Dana Gioia&lt;/cite&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -249,9 +249,11 @@ Brad Minch and Brian Storey gave us a lot of help in learning these lessons, tak
 
 &lt;h2 id=&quot;design&quot;&gt;Design&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/stair-robot-cad-stair.jpg&quot; alt=&quot;Filter&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/stair-robot-cad-stair.jpg&quot; alt=&quot;stair&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We designed and built the mechanical systems in the machine from the ground up. Though many similar projects like this have been done in the past, we were forced to rethink and simplify our design. Where most robots using a mechanism like this use a differential to drive the wheels and tri-star as desired from the same motor we used a new method: planetary gears.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/stair-robot-cad-wheel.jpg&quot; alt=&quot;wheel&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Most tri-star stair climbers use the differential to drive both the wheels and the tri-star with a single motor. The motor drives the differential case and each system is driven from one of the two outputs. With the stair climbing system, the power from the motor isn’t forced to be distributed evenly like in an automobile, rather, it is free to travel along whichever path offers the least resistance.&lt;/p&gt;
 
@@ -263,7 +265,7 @@ Brad Minch and Brian Storey gave us a lot of help in learning these lessons, tak
 
 &lt;h2 id=&quot;manufacturing&quot;&gt;Manufacturing&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/stair-robot-parts.jpg&quot; alt=&quot;Filter&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/stair-robot-parts.jpg&quot; alt=&quot;parts&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Manufacturing can be broken down into 3 major assemblies: the drivetrain, tri-wheel, and chassis. The build of each component offered it’s own challenges to overcome.&lt;/p&gt;
 
@@ -273,7 +275,7 @@ Brad Minch and Brian Storey gave us a lot of help in learning these lessons, tak
 
 &lt;p&gt;Lighter manufacturing included remove some material from some of the smaller hubs so that they were all the same thickness. This would allow us to use our custom-made delrin spacers interchangeably. We originally planned on making delrin chain tensioners, but did not have the budget to create bearing-mounted tensioners. Rather than using a shaft that the chain would run against (chain would wear through this very quickly), we used acrylic plate. Whilst creating somewhat more drag, it would be more resistant to the chain. This was an acceptable trade-off.&lt;/p&gt;
 
-&lt;p&gt;Originally we only planned on using wood to make prototypes of the y-frame and wheels. However, as our budget became more finalized, it was apparent that we would not have the ability to make these components out of plastic composite or metal. We modified our designs accordingly and made 8 y-frames and 12 wheels out of scrap wood. Wood had the advantage of cheapness, availability, and weight. Whilst the entire robots weighs roughly 30lbs, most of this is due to the steel components found in the drivetrain.&lt;/p&gt;
+&lt;p&gt;Originally we only planned on using wood to make prototypes of the y-frame and wheels. However, as our budget became more finalized, it was apparent that we would not have the ability to make these components out of plastic, composite, or metal. We modified our designs accordingly and made 8 y-frames and 12 wheels out of scrap wood. Wood had the advantage of cheapness, availability, and weight. Whilst the entire robots weighs roughly 30lbs, most of this is due to the steel components found in the drivetrain.&lt;/p&gt;
 
 &lt;p&gt;The all of the drivetrain components sandwich between 2 y-frames with large diameter steel bolts holding the entire thing together. Each y-frame contains a bearing to reduce mechanical friction and increase efficiency.&lt;/p&gt;
 

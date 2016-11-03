@@ -16,9 +16,11 @@ We wanted to build a robot capable of climbing full size stairs and driving at a
 
 ## Design
 
-![Filter](/images/stair-robot-cad-stair.jpg){: .align-center}
+![stair](/images/stair-robot-cad-stair.jpg){: .align-center}
 
 We designed and built the mechanical systems in the machine from the ground up. Though many similar projects like this have been done in the past, we were forced to rethink and simplify our design. Where most robots using a mechanism like this use a differential to drive the wheels and tri-star as desired from the same motor we used a new method: planetary gears.
+
+![wheel](/images/stair-robot-cad-wheel.jpg){: .align-center}
 
 Most tri-star stair climbers use the differential to drive both the wheels and the tri-star with a single motor. The motor drives the differential case and each system is driven from one of the two outputs. With the stair climbing system, the power from the motor isn't forced to be distributed evenly like in an automobile, rather, it is free to travel along whichever path offers the least resistance.
 
@@ -40,7 +42,7 @@ Due to using two planetary gears to connect the motor to the tri-wheel, it was n
 
 Lighter manufacturing included remove some material from some of the smaller hubs so that they were all the same thickness. This would allow us to use our custom-made delrin spacers interchangeably. We originally planned on making delrin chain tensioners, but did not have the budget to create bearing-mounted tensioners. Rather than using a shaft that the chain would run against (chain would wear through this very quickly), we used acrylic plate. Whilst creating somewhat more drag, it would be more resistant to the chain. This was an acceptable trade-off.
 
-Originally we only planned on using wood to make prototypes of the y-frame and wheels. However, as our budget became more finalized, it was apparent that we would not have the ability to make these components out of plastic composite or metal. We modified our designs accordingly and made 8 y-frames and 12 wheels out of scrap wood. Wood had the advantage of cheapness, availability, and weight. Whilst the entire robots weighs roughly 30lbs, most of this is due to the steel components found in the drivetrain.
+Originally we only planned on using wood to make prototypes of the y-frame and wheels. However, as our budget became more finalized, it was apparent that we would not have the ability to make these components out of plastic, composite, or metal. We modified our designs accordingly and made 8 y-frames and 12 wheels out of scrap wood. Wood had the advantage of cheapness, availability, and weight. Whilst the entire robots weighs roughly 30lbs, most of this is due to the steel components found in the drivetrain.
 
 The all of the drivetrain components sandwich between 2 y-frames with large diameter steel bolts holding the entire thing together. Each y-frame contains a bearing to reduce mechanical friction and increase efficiency.
 
