@@ -30,7 +30,7 @@ If the tri-star is more difficult to turn, as is expected on flat ground, the pl
 
 ## Manufacturing
 
-![Filter](/images/stair-robot-parts.jpg){: .align-center}
+![parts](/images/stair-robot-parts.jpg){: .align-center}
 
 Manufacturing can be broken down into 3 major assemblies: the drivetrain, tri-wheel, and chassis. The build of each component offered it's own challenges to overcome.
 
