@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://silashughes.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://silashughes.github.io/" rel="alternate" type="text/html" /><updated>2016-11-01T19:51:14-04:00</updated><id>http://silashughes.github.io/</id><title>Silas Hughes</title><subtitle>Roboticist - Mechanical Engineer - UAS Pilot</subtitle><entry><title>Maze without a Minotaur</title><link href="http://silashughes.github.io/basement-maze/" rel="alternate" type="text/html" title="Maze without a Minotaur" /><published>2016-10-31T00:00:00-04:00</published><updated>2016-10-31T00:00:00-04:00</updated><id>http://silashughes.github.io/basement-maze</id><content type="html" xml:base="http://silashughes.github.io/basement-maze/">&lt;p&gt;Maze without a Minotaur  &lt;br /&gt;
-By Dana Gioia&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-11-02T21:10:24-04:00</updated><id>/</id><title>Silas Hughes</title><subtitle>Roboticist - Mechanical Engineer - UAS Pilot</subtitle><entry><title>Maze without a Minotaur</title><link href="/basement-maze/" rel="alternate" type="text/html" title="Maze without a Minotaur" /><published>2016-10-31T00:00:00-04:00</published><updated>2016-10-31T00:00:00-04:00</updated><id>/basement-maze</id><content type="html" xml:base="/basement-maze/">&lt;p&gt;Maze without a Minotaur  &lt;br /&gt;
+&lt;cite&gt;Dana Gioia&lt;/cite&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;If we could only push these walls &lt;br /&gt;
@@ -35,4 +35,210 @@ have memories, they are not ours.&lt;/p&gt;
 &lt;p&gt;Below is a short video walkthrough of the maze. With the lights on, the maze is far from challenging, but it can provide some sense of what we made.&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HyS-BEsrSXo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><category term="Weekend Projects" /><summary>Maze without a Minotaur  
-By Dana Gioia</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://silashughes.github.ioimages/maze-building-selfie.jpg" /></entry></feed>
+Dana Gioia</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="images/maze-building-selfie.jpg" /></entry><entry><title>Wooden Iris Box</title><link href="/wooden-iris-box/" rel="alternate" type="text/html" title="Wooden Iris Box" /><published>2012-11-03T00:00:00-04:00</published><updated>2012-11-03T00:00:00-04:00</updated><id>/wooden-iris-box</id><content type="html" xml:base="/wooden-iris-box/">&lt;p&gt;Using a scrap piece of pine 2x4 and five 4-40 screws, I made this little box with an iris mechanism. I desinged the box in Solidworks, roughly cut the pieces on a desktop mill, and finished the pieces by hand. Overall, I’m happy with how it turned out.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Ljv07ujLKSw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><category term="Woodworking" /><category term="CNC Machining" /><summary>Using a scrap piece of pine 2x4 and five 4-40 screws, I made this little box with an iris mechanism. I desinged the box in Solidworks, roughly cut the pieces on a desktop mill, and finished the pieces by hand. Overall, I’m happy with how it turned out.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="images/wooden-iris-box.jpg" /></entry><entry><title>Singularity Drive</title><link href="/singularity-drive/" rel="alternate" type="text/html" title="Singularity Drive" /><published>2011-07-27T00:00:00-04:00</published><updated>2011-07-27T00:00:00-04:00</updated><id>/singularity-drive</id><content type="html" xml:base="/singularity-drive/">&lt;p class=&quot;notice&quot;&gt;This post is copied from my old website.&lt;/p&gt;
+
+&lt;h2 id=&quot;project-goal&quot;&gt;Project Goal&lt;/h2&gt;
+&lt;p&gt;The goal of this project was to create a drive mechanism capable of forward, reverse, and rotation without changing the speed or direction of the drive motor. This is accomplished by driving a hemisphere of rubber and controlling the angle at which the rubber contacts the ground. This essentially changes the size  and direction of the ‘wheel’ contacting the ground. I was inspired by &lt;a href=&quot;http://spectrum.ieee.org/automaton/robotics/diy/youve-never-seen-a-drive-system-like-this-before&quot;&gt;this article&lt;/a&gt;, but I wanted to try and make a larger and more stable version. The drive mechanism in the video suffers from having coupled steering mechanisms, as well as a platform which shifts in orientation. Working in conjunction with Ian Daniher, I wanted to see if we could do better.&lt;/p&gt;
+
+&lt;h2 id=&quot;components&quot;&gt;Components&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Category&lt;/th&gt;
+      &lt;th&gt;Model/Type&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chassis&lt;/td&gt;
+      &lt;td&gt;ABS plastic&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Motor&lt;/td&gt;
+      &lt;td&gt;Eflite Park 400 Brushless Outrunner&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Servos&lt;/td&gt;
+      &lt;td&gt;HiTech HS-5685MH&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Receiver&lt;/td&gt;
+      &lt;td&gt;Spektrum AR8000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Battery&lt;/td&gt;
+      &lt;td&gt;1800 mAh LiPo&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;result&quot;&gt;Result&lt;/h2&gt;
+
+&lt;p&gt;The platform I have created is functional, but far from perfect. It is as stable laterally as I had hoped and it is extremely maneuverable. However, that maneuverability comes at a price; it is very difficult of control this platform at very slow speeds or to hold stationary without slowing the motor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/singularity-drive-2.jpg&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/singularity-drive-3.jpg&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/singularity-drive-4.jpg&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/singularity-drive-5.jpg&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/singularity-drive-6.jpg&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/singularity-drive-7.jpg&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/nIEBChw5x8Q&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;There are two main issues in this current design: the rubber wheel is not perfectly centered about it’s axis and steering is not completely symmetrical. The first issue does not cause major issues at low speeds, but after half throttle the entire assembly begins shaking destructively. It could be fixed by printing the half sphere wheel as part of the assembly. This would also allow for the manipulation of the shape of the wheel for different driving characteristics.&lt;/p&gt;
+
+&lt;p&gt;The second problem is caused by geometry of the steering servo linkage. Due to the position of the steering servo, the polygon formed between the four pivot points in the steering system is not a parallelogram. If the steering servo’s connection to the chassis can be redesigned such that a parallelogram is formed, the steering behavior will be theoretically symmetrical.&lt;/p&gt;
+
+&lt;h2 id=&quot;responses-to-questions-posted-on-hackadaycom&quot;&gt;Responses to questions posted on Hackaday.com&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#http://hackaday.com/2011/07/28/3d-printed-singularity-drive-platform/&quot; class=&quot;btn btn_info&quot;&gt;My Post on Hackaday&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Gyroscopic balancing would be amazing and if I work out a few kinks in this design, I would love to see what I can do in that direction&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;As far as adding two more drives, I am fairly sure that I would be able to have full range of motion with only two drive wheels, and my control system would be a lot simpler than if I had three. With traditional omniwheels, at least three are needed because they can only drive in one direction on their own. This drive mechanism can actively drive in all directions on a 2d plane.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I am starting to feel that the ball may be centered and it is just deforming under high speeds. I am not sure. Either way, I will be looking into new methods of making the drive hemisphere.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;This platform does have the complete potential to drive in a perfectly straight line and be completely maneuverable in small spaces. However, this would be greatly aided by a control loop of some form. Right now it is fairly drivable because I have tuned the servo limits and added exponential to my control. However, I need to know how it will react under different condition and drive it accordingly; ideally, a smart control loop would fill in that gap between what I want it to do and making it do it smoothly.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I designed this to be driven with the regular wheels in front, but for some reason it was easier to control driving in the other direction.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;This platform has plenty of power to handle a 1.2kg load, if not much more. I feel like it would actually handle better. The biggest issue is that the rubber hemisphere will be pushed deeper into the surface it is riding on. On a hard floor, I think it would drive better, but on a rug I think it would put a tremendous load on the motor.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The original inspiration for this project was to take the IEEE drive mechanism and see how it would work scaled up. I scaled up the drive mechanism, but the chassis itself is still very small. Judging by how it drives now, I think it would drive better if the body were significantly larger.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The platform is ABS plastic and was printed using an extrusion method.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I completely plan on sharing my CAD files for this project and all my other projects. However, I need to find a reasonably robust (and hopefully free) method of hosting those files. I know there are tons of services out there; I just need to pick one.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><category term="Robots" /><category term="3D Printing" /><category term="Remote Control" /><summary>This post is copied from my old website.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="images/singularity-drive-1.jpg" /></entry><entry><title>Motorized Boogie Board</title><link href="/rc-duck/" rel="alternate" type="text/html" title="Motorized Boogie Board" /><published>2011-06-26T00:00:00-04:00</published><updated>2011-06-26T00:00:00-04:00</updated><id>/rc-duck</id><content type="html" xml:base="/rc-duck/">&lt;p class=&quot;notice&quot;&gt;This post is copied from my old website.&lt;/p&gt;
+
+&lt;h2 id=&quot;project-goal&quot;&gt;Project Goal&lt;/h2&gt;
+&lt;p&gt;I constructed a motorized boogie board for a very specific purpose: to tow a small submarine for a series of sonar tests. The submarine is nothing but a shell at this point in time, so it can not propel itself. However, to have a test subject for the sonar system another team is working on, the submarine will be towed by this boogie board.&lt;/p&gt;
+
+&lt;h2 id=&quot;components&quot;&gt;Components&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Category&lt;/th&gt;
+      &lt;th&gt;Model/Type&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chassis&lt;/td&gt;
+      &lt;td&gt;36’’ Boogie Board&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Motor&lt;/td&gt;
+      &lt;td&gt;Dual 700 Brushed Motors&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Speed Controller&lt;/td&gt;
+      &lt;td&gt;Viper 25 Marine Brush&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Receiver&lt;/td&gt;
+      &lt;td&gt;Spektrum AR8000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Battery&lt;/td&gt;
+      &lt;td&gt;12Ah 12V SLA&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;version-1&quot;&gt;Version 1&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/rc-duck-3.jpg&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/aIrLUG0Tnp4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;version-2&quot;&gt;Version 2&lt;/h2&gt;
+
+&lt;p&gt;We learned a lot after we took our first version out for a test run. First of all, we had no protection on the water intake, so almost immediately the motor became clogged with debris. Second, the motor was working too hard; after a five minute run, the motor was too hot to touch. Third, our LiPo battery was not going to last for a full day of sonar testing. Sure, the LiPo was powerful for it’s size and fit nicely inside our electronics container, but it was getting low after five minutes of rough driving. Finally, the single motor was not quite as powerful as we were aiming for.&lt;/p&gt;
+
+&lt;p&gt;To address these issues, we added a second motor and large SLA battery. The two motors now allow for tank-steering, thus eliminating the need for the servo driven steering mechanism. To protect the motors from weeds and other debris, we epoxied a small section of window screen over the water intake. As a final touch, a small brass tube inserted through the board acts as a tow hitch.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/rc-duck-1.jpg&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9XIyrAuTtuA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><category term="Remote Control" /><summary>This post is copied from my old website.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="images/rc-duck-1.jpg" /></entry><entry><title>Iron Man LED Respulsor</title><link href="/iron-man-repulsor/" rel="alternate" type="text/html" title="Iron Man LED Respulsor" /><published>2011-05-11T00:00:00-04:00</published><updated>2011-05-11T00:00:00-04:00</updated><id>/iron-man-repulsor</id><content type="html" xml:base="/iron-man-repulsor/">&lt;p class=&quot;notice&quot;&gt;This post is copied from my old website.&lt;/p&gt;
+
+&lt;h2 id=&quot;our-goal&quot;&gt;Our Goal&lt;/h2&gt;
+
+&lt;p&gt;With a team of Olin students, we created an analog EMG that controls an LED placed in the center of the palm, lighting the device proportionally to the flex in the user’s bicep muscle. This device is meant to simulate Iron Man’s repulsor by emitting an intense light from the palm when the arm is flexed. The final product aims to be clean, simple, and replicable at a low cost.&lt;/p&gt;
+
+&lt;h2 id=&quot;design&quot;&gt;Design&lt;/h2&gt;
+
+&lt;h3 id=&quot;filters&quot;&gt;Filters&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ironman-filter.png&quot; alt=&quot;Filter&quot; class=&quot;align-left&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We approached this project by first studying both the EKG lab and Speaker lab from this semester. We knew we would have to measure a voltage difference across a portion of the body as well as filter and amplify the measured signal. These tasks were addressed in the EKG Lab and the Speaker Lab, and reviewing these labs proved to be incredibly helpful in our project. The circuit from the EKG lab provided a reasonable starting point, and with some research we found band pass filter values that are better fitted to our EMG application. A great resource we found was &lt;a href=&quot;http://www.g9toengineering.com/MechatronicsStudio/MyoelectricProsthesis.htm&quot;&gt;Mechatronics Learning Studio&lt;/a&gt;. On this site, students used an Arduino microcontroller to measure the voltage difference across the bicep and used it to open or close a servo driven claw. While their system is binary and requires the use of a microcontroller, their research suggests that a band pass filter that only allows frequencies from 50Hz to 500Hz to pass through would be the ideal filter for our project.&lt;/p&gt;
+
+&lt;p&gt;According to our research, the 50-500Hz range “is the range of frequencies human nerves can transmit signals”. This filter range is not perfect; it still includes the measurable frequencies produced by nearby electronics and fluorescent lights, but our testing has shown that this noise does not drastically interfere with our measurements.&lt;/p&gt;
+
+&lt;h3 id=&quot;envelope-detector&quot;&gt;Envelope Detector&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ironman-detector.png&quot; alt=&quot;Detector&quot; class=&quot;align-right&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once we had a better idea of what frequency spectrum we were looking for, our next step was to create a reliable and safe circuit to control the LED. We considered a Schmitt trigger, but decided a proportional brightness control would better fulfill the vision of our project. We contemplated writing a MATLAB script that would take a sample at every small time step, find the difference, and if it was over a threshold, would produce a proportionally higher signal; however, this would require the use of a computer running MATLAB to function. At one point we got a signal that would spike at the beginning of every flex, and then anti-spike at the end thereof. This turned out to be a fluke in our circuit. After working with our circuit some more, we got a signal that would increase in amplitude proportional to how hard the subject would flex their bicep. We were able to measure a signal oscillation about 2.5V with an amplitude spanning 1.5V to 3.5V. When the bicep was flexed, the amplitude of this signal would increase.&lt;/p&gt;
+
+&lt;p&gt;Next, we added a modified voltage envelope detector that would output a non-oscillating voltage corresponding to the peak voltage of the oscillating signal. A voltage envelope detector consists of a diode which rectifies the oscillating signal, and a resistor and a capacitor in parallel connecting the output of the diode to ground. The rectified signal “fills” the capacitor and the resistor “drains” the capacitor. With the correct capacitor and resistor values, the filling and draining cleanly follows the peaks of the signal. With the use of an op-amp designed to carry enough current to power our large LED and creative use of voltage dividers, we converted the voltage variance from 3.5V to 5.0V to a voltage variance from ~2.0V to 3.0V. It is important the circuit cannot output more than 3.0V in order to protect the LED. With this setup, the LED does not produce any light when the arm is relaxed, and it is supplied with a maximum voltage of 3.0V when the arm is fully flexed.&lt;/p&gt;
+
+&lt;p&gt;As a final modification, we replaced a resistor with a potentiometer to adjust the sensitivity of the apparatus so that more muscular people were not constantly setting it off and less muscular people could still bring the LED to full brightness.&lt;/p&gt;
+
+&lt;h3 id=&quot;complete-circuit&quot;&gt;Complete Circuit&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ironman-circuit-labelled.png&quot; alt=&quot;circuit&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once we had finished our breadboard prototype, we organized our circuit using two circuit simulation programs: LTSpice and ExpressSCH. We found that it was relatively simple to use both programs, once the basics were learned. While both programs accomplished the same goal, we wanted to gain experience in using multiple tools. Once we had created an organized circuit diagram, we used our schematic to design and construct two compact versions of our circuit on a permanent protoboard. We had hoped that by using ExpressSCH to diagram our schematic we would be able to seamlessly use ExpressPCB to design a printed circuit board which we could then order. However, we were not able to order a PCB due to time constraints. Even though we did not order a PCB to be printed, we did learn what goes into designing a PCB and would be able to do so for any future project.
+Picture&lt;/p&gt;
+
+&lt;h2 id=&quot;measurements&quot;&gt;Measurements&lt;/h2&gt;
+
+&lt;figure class=&quot;align-center&quot;&gt;
+  &lt;img src=&quot;/images/ironman-data1.png&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption&gt;Signal of the generic EKG circuit&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This graph displays the output signal of the generic EKG circuit from Lab 5, with appropriate filter modifications for the muscle.  The areas of greater amplitude result when the measured muscle is being flexed. The goal after seeing this signal was to create an envelope detector circuit that would follow the peaks of this signal and therefore increase the voltage enough to power the LED when the muscle is flexed. The envelope detector circuit was implemented effectively and resulted in the following signal, after also implementing an additional amplifier:&lt;/p&gt;
+
+&lt;figure class=&quot;align-center&quot;&gt;
+  &lt;img src=&quot;/images/ironman-data2.png&quot; alt=&quot;&quot; /&gt;
+  &lt;figcaption&gt;Final circuit output example&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The peaks occur when the muscle is flexed, supplying sufficient voltage to give the LED a bright shine. When it is relaxed, the voltage drops off more slowly than it rose, giving the LED the visual effect of slowly shutting off, like Iron Man’s repulsor beam does.&lt;/p&gt;
+
+&lt;h2 id=&quot;results-and-conclusion&quot;&gt;Results and Conclusion&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ironman-parts.png&quot; alt=&quot;parts&quot; class=&quot;align-left&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To use the Iron Man Hand simply attach one electrode each to your ankle and to either end of your bicep.  Attach the equipment box to your belt, and strap the LED setup to your hand.  Adjust the potentiometer such that the LED only lights up when you are flexing. Try lifting your arm gently, raising your hand, and flexing your bicep.  We strongly encourage the use of verbal sound effects.&lt;/p&gt;
+
+&lt;p&gt;While we have made slight adjustments to our goal throughout our process, we were able to accomplish what we originally set out to do. We began with the experience and knowledge we had gained from our labs and we ended with a clean, original, and replicable device.
+We completed a working prototype the day we turned in the progress report. Since then we have been streamlining the design, practicing making PCBs, and replicating our success. We now have two fully working products that can be used by anyone.
+Through this project we learned about the proper voltage and current for LEDs, envelope detectors, choosing correct filters, implementing various kinds of amplifiers using op-amps and instrumentation devices, adjusting for unforeseen error, and turning a disorganized system into a polished final product by making a circuit or device entirely analog.
+Brad Minch and Brian Storey gave us a lot of help in learning these lessons, taking extra time to explain the finer points of the electronics to us and helping us troubleshoot misbehaving circuits.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eF4FKozx9Mk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><category term="Olin College" /><summary>This post is copied from my old website.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="images/ironman-movie.jpg" /></entry></feed>

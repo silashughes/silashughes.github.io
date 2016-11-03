@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://silashughes.github.io/basement-maze/</loc>
+<loc>/basement-maze/</loc>
 <lastmod>2016-10-31T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://silashughes.github.io/</loc>
+<loc>/wooden-iris-box/</loc>
+<lastmod>2012-11-03T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://silashughes.github.io/posts.html</loc>
+<loc>/singularity-drive/</loc>
+<lastmod>2011-07-27T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://silashughes.github.io/tags.html</loc>
+<loc>/rc-duck/</loc>
+<lastmod>2011-06-26T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>/iron-man-repulsor/</loc>
+<lastmod>2011-05-11T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>/</loc>
+</url>
+<url>
+<loc>/posts.html</loc>
+</url>
+<url>
+<loc>/tags.html</loc>
 </url>
 </urlset>

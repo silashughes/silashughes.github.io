@@ -7,7 +7,7 @@ tags:
 ---
 
 Maze without a Minotaur    
-By Dana Gioia
+<cite>Dana Gioia</cite>
 
 >If we could only push these walls   
 apart, unfold the room the way   
