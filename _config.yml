@@ -2,6 +2,7 @@
 title: Silas Hughes
 description: Roboticist - Mechanical Engineer - UAS Pilot
 url: http://silashughes.github.io
+#url: http://127.0.0.1:4000 #for development
 logo: logo-white.png                                       # Site logo
 locale: en_US
 
