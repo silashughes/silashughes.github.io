@@ -47,7 +47,7 @@ The second problem is caused by geometry of the steering servo linkage. Due to t
 
 ## Responses to questions posted on Hackaday.com
 
-[My Post on Hackaday](#http://hackaday.com/2011/07/28/3d-printed-singularity-drive-platform/){: .btn .btn_info}
+[My Post on Hackaday](http://hackaday.com/2011/07/28/3d-printed-singularity-drive-platform/){: .btn .btn_info}
 
 * Gyroscopic balancing would be amazing and if I work out a few kinks in this design, I would love to see what I can do in that direction
 
